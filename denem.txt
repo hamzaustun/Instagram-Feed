@@ -1,0 +1,14 @@
+create_user user1
+create_user user2
+create_user user3
+create_user user4
+create_user user5
+follow_user user1 user2
+follow_user user1 user3
+follow_user user1 user4
+follow_user user1 user5
+create_post user2 post1 asas
+create_post user3 post2 sdsf
+create_post user4 post3 asfasf
+create_post user5 post4 sadas
+generate_feed user1 6
